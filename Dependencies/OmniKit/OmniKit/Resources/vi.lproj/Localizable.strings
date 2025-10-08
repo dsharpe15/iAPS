@@ -36,7 +36,7 @@
 "Bolus: %1$@U %2$@ %3$@ %4$@" = "Bolus: %1$@U %2$@ %3$@ %4$@";
 
 /* Delivery status when bolusing */
-"Bolusing" = "Đang tiến hành bolus";
+"Bolusing" = "Đang bolus";
 
 /* Delivery status when bolusing and temp basal is running */
 "Bolusing with temp basal" = "Đang thực hiện liều basal tạm thời";
@@ -81,7 +81,7 @@
 "Disabled" = "Vô hiệu hóa";
 
 /* Description for Empty reservoir pod fault */
-"Empty reservoir" = "Ngăn chứa insulin rỗng";
+"Empty reservoir" = "Hết insulin";
 
 /* Error message shown when empty response from pod was received */
 "Empty response from pod" = "Không có phản hồi từ pod";
@@ -120,7 +120,7 @@
 "Initialized" = "Đã được khởi tạo";
 
 /* Pod state when inserting cannula */
-"Inserting cannula" = "Thay cannula";
+"Inserting cannula" = "Đang gắn Cannula";
 
 /* The default notification body for AlarmCodes */
 "Insulin delivery stopped. Change Pod now." = "Insulin ngừng. Thay Pod ngay.";
@@ -249,7 +249,7 @@
 "Pod already paired" = "Pod đã được ghép đôi";
 
 /* Error message shown when prime is attempted, but pod is already primed */
-"Pod already primed" = "Pod đã được mồi";
+"Pod already primed" = "Pod đã được chuẩn bị sẵn";
 
 /* Status highlight message for other alarm. */
 "Pod Error" = "Lỗi Pod";
@@ -273,7 +273,7 @@
 "Pod is not in a state ready for cannula insertion." = "Pod không sẵn sàng để gắn cannula.";
 
 /* Error message when prime fails because the pod is in an unexpected state */
-"Pod is not in a state ready for priming." = "Pod không sẵn sàng để mồi.";
+"Pod is not in a state ready for priming." = "Pod chưa ở trạng thái sẵn sàng để mồi.";
 
 /* Error message action could not be performed because pod is suspended */
 "Pod is suspended" = "Pod bị tạm ngưng";
@@ -285,7 +285,7 @@
 "Pod Pairing Incomplete" = "Pod ghép nối không thành công";
 
 /* Error message shown when pod sends ack instead of response */
-"Pod sent ack instead of response" = "Pod gửi ack thay vì phản hồi";
+"Pod sent ack instead of response" = "Pod gửi xác nhận thay vì phản hồi";
 
 /* Pod state when prime or cannula insertion has not completed in the time allotted */
 "Pod setup window expired" = "Cửa sổ cấu hình pod hết hạn";
